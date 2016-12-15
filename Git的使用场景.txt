@@ -1,0 +1,83 @@
+
+
+1.  Git Github SVN SourceTree
+
+Git : git status git add index.html git push  git pull  git clone
+
+Git : 使用Git 命令操作Github仓库
+
+SourceTree : 操作Github仓库
+
+SVN : Github  ==> 用于多人协作
+
+假设: 有三个人 你 我 他  前端开发工程师   <    技术总监
+
+	接到了一个项目: 
+		你负责注册登录页面
+		我负责商品列表页面
+		他负责搜索购买页面
+
+	公司: github上有一个仓库
+
+	你: 写了一个注册的静态页面 ===>  下班之后  ===> 上传代码到github上
+
+		1. 将公司的仓库 clone 到自己本机电脑上
+		2. 把写好的代码,放到本机的仓库路径下
+		3. 同步到公司设定的github仓库中
+
+		你离职了
+
+		第二天,你的同学去了...
+
+		之前的代码看一遍,然后把登录页面写好
+
+		同学: 
+			1. 将公司的仓库 clone 到自己本机电脑上
+			2. 把离职同学的代码pull拉到本地(看!)
+			3. 改....(注册)..变量名不好,没有注释=== 
+			4. 把改好的注册页面上传到github上
+
+1.如果命令行不自动提示输入邮箱和密码 
+
+git config --global user.name "Henry"
+git config --global user.email "27732357@qq.com 你的github邮箱号"
+
+随便修改一下你的文件,那么只是一个注释
+git status
+
+git add fileName
+
+git commit -m "修改""
+
+git push
+
+Username:  27732357@qq.com
+Password:  123321
+
+查看github网络仓库是否有上传的文件
+
+文件上传流程
+
+1.cd到需要存放克隆文件的位置 例:Desktop
+
+2.git clone 网络仓库
+
+3.cd到本地仓库的位置
+
+4.在仓库中写你具体想要实现的代码,写完之后
+
+5.git status 查看状态
+
+6.git add 文件名称
+
+7.git commit -m "备注信息"
+
+8.git push 推送文件到网络仓库
+
+备注: 如果没有自动提示输入邮箱,请返回第一条
+
+
+
+
+
+
