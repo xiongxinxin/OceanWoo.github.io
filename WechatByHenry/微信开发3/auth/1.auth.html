@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>网页授权</title>
+</head>
+<body>
+	<h2>微信图文界面</h2>
+	<ol>
+		<li>微信公众号维护人员编辑文章,群发给关注者(粉丝)</li>
+		<li>一部分粉丝阅读文章或者阅读原文</li>
+		<li>一部分粉丝会分享原文(游戏,测金庸人物等)到朋友圈</li>
+		<li>粉丝的朋友会点进去(提示授权),通过授权后,会获取用户的信息,拿到用户的信息,即可使用(例如:游戏的排行榜)</li>
+		<li>用户点击授权,授权成功</li>
+		<li>获取用户的基本资料(昵称,头像等等)</li>
+	</ol>
+
+	<!-- 第一步：用户同意授权，获取code -->
+	<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx92a5b5a4849ae0e6&redirect_uri=http://wuhaiyang.applinzi.com/auth/auth.php&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect">阅读原文</a>
+</body>
+</html>

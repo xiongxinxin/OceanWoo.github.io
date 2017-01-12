@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.php" method="POST" enctype="multipart/form-data">
+		用户: <input type="text" name="username"><br>
+		密码: <input type="password" name="password"><br>
+		图片: <input type="file" name="tupian"><br>
+		音频: <input type="file" name="yinpin"><br>
+		视频: <input type="file" name="shipin"><br>
+		压缩: <input type="file" name="yasuob"><br>
+		<input type="checkbox" name="hobby[]" value="看电影">看电影<br>
+		<input type="checkbox" name="hobby[]" value="听音乐">听音乐<br>
+		<input type="checkbox" name="hobby[]" value="打游戏">打游戏<br>
+		<input type="checkbox" name="hobby[]" value="敲代码">敲代码<br>
+
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>
