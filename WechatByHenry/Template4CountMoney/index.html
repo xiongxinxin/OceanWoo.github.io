@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<title>数钱啦~！~~</title>
+</head>
+<body>
+	<audio src="audio/bgmusic.mp3" autoplay loop></audio>
+	<div class="wrap">
+		<div class="p1" id="p1">
+			<div id="home_page">
+				<img class="tiaozhan animated bounceIn" src="images/tiaozhan.png">
+				<img class="yingqu animated swing" src="images/yingqu.png">
+				<img id="start_btn" class="start_btn animated infinite pulse" src="images/start_game.png">
+				<img id="shou" class="shou fadeOut animated infinite" src="images/shou.png">
+				<img class="p1_btns_wrap" src="images/p1_btns_wrap.png">
+				<img class="ranking" src="images/ranking.png">
+				<img class="activity_rule" src="images/activity_rule.png">
+				<img class="prize" src="images/prize.png">
+				<img class="shiyong" src="images/shiyong.png">
+			</div>
+			<div id="user_data" class="user_data_mask">
+				<img class="close" src="images/close.png">
+				<form class="user_data_wrap">
+					<input type="text" id="user_name" class="user_name" placeholder="姓名">
+					<input type="text" id="user_tel" class="user_tel" placeholder="电话">
+					<input id="start_game" class="sub" type="button">
+				</form>
+			</div>
+		</div>
+		<div class="p2" id="p2">
+			<img class="kuang" src="images/p2_kuang.png">
+			<img id="p2_txt" class="p2_txt" src="images/p2_txt1.png">
+			<div id="qian_wrap" class="qian_wrap">
+				<img class="p2_qian" src="images/p2_qian.jpg">
+			</div>
+			<img class="p2_zhuan" src="images/p2_zhuan.png">
+			<img id="p2_shou" class="p2_shou animated infinite fadeOutUp" src="images/p2_shou.png">
+			<div id="count_down">
+				<span class="number">0</span>
+				<span class="number">0</span>
+				<span class="number">0</span>
+				<span class="clock">10</span>
+			</div>
+		</div>
+		<div class="p3" id="p3">
+			<div id="result">
+				<img class="p3_acquire" src="images/p3_acquire.png">
+				<div id="result_num">￥xxx</div>
+				<div id="result_txt">你太厉害了，快要强到没有对手了</div>
+				<div class="result_rank">玩家最高战绩:￥<span id="highScore">xxx</span>  当前排名：<span id="result_rank">xx</span>位</div>
+
+				<img id="p3_again" class="p3_again" src="images/p3_again.png">
+				<img class="p3_share_btn" src="images/p3_share_btn.png">
+
+				<img class="p1_btns_wrap" src="images/p1_btns_wrap.png">
+				<img class="ranking" src="images/ranking.png">
+				<img class="activity_rule" src="images/activity_rule.png">
+				<img class="prize" src="images/prize.png">
+				<img class="shiyong" src="images/shiyong.png">
+			</div>
+		</div>
+		<div id="activity_rule" class="activity_rule_mask">
+			<img class="close" src="images/close.png">
+			<div class="rule_wrap">
+				<h2>活动规则</h2>
+				<p>1、每人有多次游戏机会，但成绩只能提交一次，且提交之后不能更改！<br>
+				2、提交成绩时要提供姓名及手机号码作为兑换凭证，因用户本人未在规定时间内提供正确的手机号码造成的奖品损失，由用户承担。<br>
+				3、活动时间为2016年5月11日-5月19日24:00，活动结束后将在“雾灵山庄”微信公布中奖名单。<br>
+				4、获奖规则：系统将根据大家提交的成绩，按照由多到少的规则进行排行，排名第1的网友将获得一等奖，排名第2-第21位的网友将分获二等奖，以此类推。<br>
+				5、奖品的发放：活动结束后，将由工作人员与您取得联系，并将相应的卡券编号发送到您提供的手机号码上。	
+				</p>
+			</div>
+		</div>
+		<div id="prize" class="prize_mask">
+			<img class="close" src="images/close.png">
+			<div class="prize_wrap">
+				<h2>活动奖品</h2>
+				<p>一等奖1人：价值1488元7号楼1晚豪华标间免费房券1张，并可享康体项目3折优惠；</p>
+				<p>二等奖20人：100元订房代金券每人1张，并可享康体项目4折优惠；</p>
+				<p>三等奖50人：50元订房代金券每人1张，并可享康体项目5折优惠。</p>
+				<p>奖品的有效期：2016年5月20日至6月15日（周五、周六及法定节假日不可用）</p>
+			</div>
+		</div>
+		<div id="shiyong" class="shiyong_mask">
+			<img class="close" src="images/close.png">
+			<div class="shiyong_wrap">
+				<h2>奖券使用说明</h2>
+				<p>1、奖品的使用：请务必至少提前一周致电010-81027788或81027799进行预约，并于入住时向前台服务人员出示您手机上收到的卡券编号即可使用（需同时验证获奖人姓名与手机号码）。<br />
+				2、代金券仅适用于线下门市价入住客房消费使用，不适用于通过携程或微信等其他线上渠道预定使用。<br />
+				3、免费房安排的房间将视当时酒店排房情况而定，如您所预约的时段预订已满，将与您协商调整入住时间。<br />
+				4、免费房券及代金券不得用于除订房外其他产品消费，不得与酒店其他优惠折扣或礼券同时使用，且不予退换、兑换现金或找赎。<br />
+				5、对于恶意刷奖者和作弊者，主办方有权取消其兑奖资格。</p>
+			</div>
+		</div>
+		<div id="ranking" class="ranking_mask">
+			<img class="close" src="images/close.png" alt="">
+			<div class="ranking_wrap">
+				<ul id="ranking_ul">
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/touch.min.js"></script>
+<script type="text/javascript" src="js/request.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
