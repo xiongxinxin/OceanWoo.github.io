@@ -102,7 +102,9 @@ nav a:hover{
   border-radius: 2px;
   font-size: 14px;
   text-transform: uppercase;
+  width: 80px;
   padding: 8px !important;
+  text-align: center;
 }
 
 .single-person h3{
